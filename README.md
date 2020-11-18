@@ -95,7 +95,7 @@ cloud integration task. <br>
 ![](https://raw.githubusercontent.com/tirth-pipalia/Assimilation-of-Machine-Learning-and-Cloud-Computing/main/Screenshorts/HeatMap.PNG)
 ###  Most used method for Transaction
 ![](https://github.com/tirth-pipalia/Assimilation-of-Machine-Learning-and-Cloud-Computing/blob/main/Screenshorts/MostTransaction.PNG)
-### Righest Fraud 
+### Highest Fraud 
 ![](https://github.com/tirth-pipalia/Assimilation-of-Machine-Learning-and-Cloud-Computing/blob/main/Screenshorts/HighestFraudRegions.PNG)
 ### Total Sales
 ![](https://github.com/tirth-pipalia/Assimilation-of-Machine-Learning-and-Cloud-Computing/blob/main/Screenshorts/TotalSaleRegion.PNG)
@@ -115,7 +115,7 @@ cloud integration task. <br>
 
 ### Metrics for Regression Models
 ![](https://github.com/tirth-pipalia/Assimilation-of-Machine-Learning-and-Cloud-Computing/blob/main/Screenshorts/MetricsReg.PNG)
-### Comutaion time for Regression Models
+### Computation time for Regression Models
 ![](https://github.com/tirth-pipalia/Assimilation-of-Machine-Learning-and-Cloud-Computing/blob/main/Screenshorts/TimeReg.PNG)
 ### RMSE v/s MAE plot and MSE Plot
 ![](https://github.com/tirth-pipalia/Assimilation-of-Machine-Learning-and-Cloud-Computing/blob/main/Screenshorts/RMSEMAEMSE.PNG)
@@ -123,9 +123,10 @@ cloud integration task. <br>
 ![](https://github.com/tirth-pipalia/Assimilation-of-Machine-Learning-and-Cloud-Computing/blob/main/Screenshorts/Predicted.PNG)
 
 
-### Conclusion
+## Conclusion
 Random Forest is the best fit model for fraud prediction having Accuracy=98.332% Recall=65.969% F1=60.584% and AUC=77.668% when tuned and Training time =65.774s, Prediction Time =0.296s and tuning time=0.1302s. For Regression task Linear regression and Ridge Regression is the best fit model for sales
 prediction based on RMSE and MAE error rate vales which for Linear Regression is 0.0014938985645114012 and 0.0005448947680783427. For ridge regression RMSE=0.001882263872915812 and MAE =0.0010036470043190342. <br>
+
 ## Technologies Used
 [<img target="_blank" src="https://upload.wikimedia.org/wikipedia/commons/1/1d/AmazonWebservices_Logo.svg" width=270>](https://aws.amazon.com/)
 [<img target="_blank" src="http://ForTheBadge.com/images/badges/made-with-python.svg" width=270>](https://www.python.org/)
