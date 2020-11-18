@@ -5,7 +5,12 @@ Business Analysis, Machine Learning, AWS Cloud Technologies applied for finding 
 * [Abstract](#abstract)
 * [Research Questions and Objectives](#research-questions-and-objectives)
 * [Data Collection](#data-collection)
+* [Exploratory Data Analysis](#exploratory-data-analysis)
+* [Analysis and Findings](#analysis-and-Findings)
+* [Conclusion](#conclusion)
 * [Technologies Used](#technologies-used)
+* [Bug / Future Request](#bug-/-future-request)
+* [License](#license)
 
 ## Abstract
 During the era of IoT and Big Data as an emerging technology, it has major impact on all the
@@ -85,8 +90,43 @@ analysis easier and efficient. <br>
 cloud integration task. <br>
 
 
-## Technologies Used
+## Exploratory Data Analysis
+### Heat Map
+![](https://raw.githubusercontent.com/tirth-pipalia/Assimilation-of-Machine-Learning-and-Cloud-Computing/main/Screenshorts/HeatMap.PNG)
+###  Most used method for Transaction
+![](https://github.com/tirth-pipalia/Assimilation-of-Machine-Learning-and-Cloud-Computing/blob/main/Screenshorts/MostTransaction.PNG)
+### Righest Fraud 
+![](https://github.com/tirth-pipalia/Assimilation-of-Machine-Learning-and-Cloud-Computing/blob/main/Screenshorts/HighestFraudRegions.PNG)
+### Total Sales
+![](https://github.com/tirth-pipalia/Assimilation-of-Machine-Learning-and-Cloud-Computing/blob/main/Screenshorts/TotalSaleRegion.PNG)
+### Total Loss in Revenue
+![](https://github.com/tirth-pipalia/Assimilation-of-Machine-Learning-and-Cloud-Computing/blob/main/Screenshorts/MostLossRegion.PNG)
 
+
+## Analysis and Findings
+### Metrics of Tuned Classification Models
+![](https://github.com/tirth-pipalia/Assimilation-of-Machine-Learning-and-Cloud-Computing/blob/main/Screenshorts/MetricsTunedModels.PNG)
+### Computation time of tuned Classification Models
+![](https://github.com/tirth-pipalia/Assimilation-of-Machine-Learning-and-Cloud-Computing/blob/main/Screenshorts/ComputationTimeTuned.PNG)
+### Important Features
+![](https://github.com/tirth-pipalia/Assimilation-of-Machine-Learning-and-Cloud-Computing/blob/main/Screenshorts/ImpFeaTuned.PNG)
+### ROC Curve for Tuned Classification Models
+![](https://github.com/tirth-pipalia/Assimilation-of-Machine-Learning-and-Cloud-Computing/blob/main/Screenshorts/ROCTuned.PNG)
+
+### Metrics for Regression Models
+![](https://github.com/tirth-pipalia/Assimilation-of-Machine-Learning-and-Cloud-Computing/blob/main/Screenshorts/MetricsReg.PNG)
+### Comutaion time for Regression Models
+![](https://github.com/tirth-pipalia/Assimilation-of-Machine-Learning-and-Cloud-Computing/blob/main/Screenshorts/TimeReg.PNG)
+### RMSE v/s MAE plot and MSE Plot
+![](https://github.com/tirth-pipalia/Assimilation-of-Machine-Learning-and-Cloud-Computing/blob/main/Screenshorts/RMSEMAEMSE.PNG)
+### Predicted v/s Actual Result
+![](https://github.com/tirth-pipalia/Assimilation-of-Machine-Learning-and-Cloud-Computing/blob/main/Screenshorts/Predicted.PNG)
+
+
+### Conclusion
+Random Forest is the best fit model for fraud prediction having Accuracy=98.332% Recall=65.969% F1=60.584% and AUC=77.668% when tuned and Training time =65.774s, Prediction Time =0.296s and tuning time=0.1302s. For Regression task Linear regression and Ridge Regression is the best fit model for sales
+prediction based on RMSE and MAE error rate vales which for Linear Regression is 0.0014938985645114012 and 0.0005448947680783427. For ridge regression RMSE=0.001882263872915812 and MAE =0.0010036470043190342. <br>
+## Technologies Used
 [<img target="_blank" src="https://upload.wikimedia.org/wikipedia/commons/1/1d/AmazonWebservices_Logo.svg" width=270>](https://aws.amazon.com/)
 [<img target="_blank" src="http://ForTheBadge.com/images/badges/made-with-python.svg" width=270>](https://www.python.org/)
 [<img target="_blank" src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" width=270>](https://jupyter.org/)
@@ -95,5 +135,25 @@ cloud integration task. <br>
 [<img target="_blank" src="https://miro.medium.com/max/759/0*Xbg-CQX5W5NqXyG3.png" width=270>](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
 [<img target="_blank" src="https://upload.wikimedia.org/wikipedia/commons/3/31/NumPy_logo_2020.svg" width=270>](https://numpy.org/)
 
+## Bug / Future Request
+If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/tirth-pipalia/Django_REST_API_Travel_APP/issues/new)
+by including your search query and the expected result. <br>
 
+If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/tirth-pipalia/Django_REST_API_Travel_APP/issues/new). 
+Please include sample queries and their corresponding results. <br>
+
+
+## License
+
+[![Apache license](https://img.shields.io/badge/license-apache-blue?style=for-the-badge&logo=appveyor)](http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at [Apache](http://www.apache.org/licenses/LICENSE-2.0)
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
 
