@@ -1,0 +1,51 @@
+Decison Tree:
+----> Parameters List for RandomizedSearchCV:
+{'criterion': ['gini', 'entropy'],
+ 'max_depth': [2, 4, 6, 8],
+ 'max_features': ['log2', 'auto', 'sqrt'],
+ 'max_leaf_nodes': [2, 3, 4],
+ 'min_samples_leaf': [2, 3, 4, 5],
+ 'min_samples_split': [2, 3, 4, 5, 6, 7, 8, 9, 10],
+ 'splitter': ['best', 'random']}
+
+---> Output:{'splitter': 'random', 'min_samples_split': 5, 'min_samples_leaf': 4, 'max_leaf_nodes': 4, 'max_features': 'sqrt', 'max_depth': 4, 'criterion': 'gini'}
+
+
+Light GBM:
+----> Parameters List for RandomizedSearchCV:
+{'boosting': ['gbdt', 'rf', 'dart', 'goss'],
+ 'learning_rate': [0.002, 0.003, 0.004, 0.005],
+ 'max_bin': [300, 400, 500, 600],
+ 'max_depth': [10, 14, 18, 22, 26, 30, 34, 38, 42, 46, 50, None],
+ 'n_estimators': [30, 40, 50, 60, 70, 80],
+ 'num_leaves': [5, 10, 15, 20, 25, 30],
+ 'objective': ['binary']}
+
+---> Output:{'objective': 'binary', 'num_leaves': 30, 'n_estimators': 70, 'max_depth': 46, 'max_bin': 600, 'learning_rate': 0.005, 'boosting': 'gbdt'}
+
+
+Random Forest Classifier
+----> Parameters List for RandomizedSearchCV:
+{'bootstrap': [True, False],
+ 'criterion': ['gini', 'entropy'],
+ 'max_depth': [10, 14, 18, 22, 26, 30, 34, 38, 42, 46, 50, None],
+ 'max_features': ['auto', 'sqrt', 'log2'],
+ 'min_samples_leaf': [1, 2, 3],
+ 'min_samples_split': [2, 5, 10],
+ 'n_estimators': [30, 40, 50, 60, 70, 80]}
+
+----> Output:{'n_estimators': 70, 'min_samples_split': 5, 'min_samples_leaf': 1, 'max_features': 'sqrt', 'max_depth': None, 'criterion': 'gini', 'bootstrap': False}
+
+
+LDA
+----> Parameters List for RandomizedSearchCV:
+{'n_components': [1, 2, 3], 'solver': ['svd', 'lsqr', 'eigen']}
+
+----> Output:{'solver': 'svd', 'n_components': 1}
+
+
+AdaBoost
+----> Parameters List for RandomizedSearchCV:
+{'n_estimators': [100, 200, 300, 400, 500]}
+
+----> Output:{'n_estimators': 500}
